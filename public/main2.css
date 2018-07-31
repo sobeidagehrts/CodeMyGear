@@ -32,7 +32,9 @@ body {
 }
 
 .nav-bar li a:hover {
-  color: #fef595;
+  background-color: #fff5b7;
+  padding: 25px;
+  color: #010e23;
 }
 
 img.page-logo {
@@ -53,10 +55,10 @@ img.insta-logo {
 }
 
 div.header {
-  padding: 150px;
+  padding: 200px;
   background-color: #151515;
-  background-image: url("./more images/zlatan_quote.jpg");
-  background-size: contain;
+  background-image: url("more images/hollywood_ibra.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   filter: opacity(55);
@@ -65,10 +67,21 @@ div.header {
 
 .header img {
   float: right;
-  height:75px;
+  height: 100px;
   width: auto;
-  padding-top: 20px;
-  padding-left: 20px;
+  /* padding-top: 20px;
+  padding-left: 20px; */
+}
+
+img.zlatan_career {
+  float: right;
+  width: 500px;
+  height: 250px;
+  padding: 20px 0px 20px 0px;
+}
+
+h2 {
+  font-stretch: 5em;
 }
 
 .facts li {
@@ -154,6 +167,16 @@ img.club_image {
 
 .seasons {
   list-style: none;
+  line-height: 20px;
+}
+
+#bio {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p {
+  line-height: 20px;
 }
 
 #malmo {
@@ -219,7 +242,7 @@ img.club_image {
   text-align: right;
   padding-top: 10px;
   padding-right: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .back_to_top a {
@@ -231,3 +254,7 @@ img.club_image {
 .back_to_top h4 a:hover {
   color: #fef595;
 }
+
+@media {
+  body {
+    width: auto; }
