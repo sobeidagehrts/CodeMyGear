@@ -1,0 +1,77 @@
+body,
+html{
+  min-height: 100%;
+  font-family: monospace;
+}
+
+body {
+  background-image: url("Zlatan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* FEEDBACK: nice use of background size */
+  background-position: center;
+  background-blend-mode: normal;
+  background-color: #0E1416;
+}
+
+h1,h2{
+  font-family: monospace;
+}
+
+.enter_page a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.enter_page a:hover{
+  color: #d8d8d8;
+}
+
+.enter_page{
+  background: linear-gradient(180deg, grey, #d8d8d8 20%, grey, grey);
+  filter: drop-shadow(0 0 0.1rem #f0f0f0);
+  margin: auto;
+  width: 50%;
+  max-width: 100px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+  padding: .5px;
+  border-radius: 50px;
+  border: 0;
+}
+
+body{
+  margin: 0;
+  size: 25px;
+}
+
+.top-header{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  color: #f0f0f0;
+  height: auto;
+  font-family: monospace;
+  font-size: 100px;
+  text-shadow: 1px 1px black;
+  margin-top: 375px;
+}
+
+/* .Ibra{
+  color: #f0f0f0;
+  background-size: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+} */
+
+.header2{
+  width: 100%;
+  font-size: 50px;
+  font-weight: lighter;
+  color: #f0f0f0;
+  text-shadow: 2px 2px 0 rgba(0,0,0,.2);
+  text-align: center;
+  margin: auto;
+}

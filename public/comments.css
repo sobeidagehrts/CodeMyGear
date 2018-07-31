@@ -1,0 +1,92 @@
+body {
+  background-color: #010e23;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: "helvetica",sans-serif;
+}
+
+.nav-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #010e23;
+  color: #ffffff;
+}
+
+.nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li a:hover {
+  color: #fef595;
+}
+
+img.page-logo {
+  float: left;
+  height: 60px;
+  width: auto;
+}
+
+img.insta-logo {
+  height: 12px;
+  width: auto;
+}
+
+.page {
+   background-color: #F1F3F4;
+   padding: 10px;
+   margin: 50px 150px 0 150px;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 10px;
+}
+
+
+h1,h2{
+  font-family: monospace;
+  color: black;
+  text-align: center;
+}
+
+.commentItem {
+  padding: 4px;
+  color: black;
+}
+
+.container {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.contenidos {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#title {
+  padding: 200px;
+  max-width: 100%;
+  background-image: url("./more images/js-bethard-article-banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: medium groove #010e23;
+}
