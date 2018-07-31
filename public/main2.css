@@ -1,0 +1,233 @@
+body {
+  background-color: #010e23;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: "helvetica",sans-serif;
+}
+
+.nav-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #010e23;
+  color: #ffffff;
+}
+
+.nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li a:hover {
+  color: #fef595;
+}
+
+img.page-logo {
+  float: left;
+  height: 60px;
+  width: auto;
+}
+
+img.insta-logo {
+  height: 12px;
+  width: auto;
+}
+
+.page {
+  background-color: #F1F3F4;
+  padding: 20px;
+  margin: 0 20px 0 20px;
+}
+
+div.header {
+  padding: 150px;
+  background-color: #151515;
+  background-image: url("./more images/zlatan_quote.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(55);
+  border-bottom: medium groove #010e23;
+}
+
+.header img {
+  float: right;
+  height:75px;
+  width: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.facts li {
+  list-style: circle;
+}
+
+.facts li a{
+  text-decoration: none;
+  color: black;
+}
+
+.facts li a:hover{
+  color: #fef595;
+}
+
+.crest_container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.kid{
+  flex-grow: 0;
+}
+
+.kid:hover {
+  transform: scale(1.5);
+}
+
+.kid img {
+ max-height: 80px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F3F4;
+  padding: 30px;
+}
+
+.subcontainer1 {
+  display: flex;
+  flex-direction: row;
+  border-bottom-color: #010e23;
+  border-bottom-style: solid;
+  padding: 0 30px 0 30px;
+}
+
+.subcontainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+.subcontainer3 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 30px 0 30px 0;
+}
+
+.team-name-row {
+  flex-basis: 40%;
+}
+
+.seasons-played-row {
+  flex-basis: 20%;
+}
+
+.content-row {
+  flex-basis: 40%;
+}
+
+img.club_image {
+  max-width: 100%;
+  height: auto;
+}
+
+.seasons {
+  list-style: none;
+}
+
+#malmo {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#ajax {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#juventus {
+  padding-top: 50px;
+  margin-top: -50px;
+ }
+
+#inter {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#barca {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#ac_milan {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#psg {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#mufc {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#la {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#sweden {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+#back_to_top {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.back_to_top h4 {
+  margin-top: 10px;
+}
+
+.back_to_top {
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-top: 20px;
+}
+
+.back_to_top a {
+  padding-top: 10px;
+  text-decoration: none;
+  color: #cfd4de;
+}
+
+.back_to_top h4 a:hover {
+  color: #fef595;
+}

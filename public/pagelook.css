@@ -1,0 +1,55 @@
+body {
+  background-color: #e6ecf7;
+  margin: 0;
+  padding: 0;
+  font-family: "helvetica",sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #0746af;
+  color: #ffffff;
+}
+.nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-basis: 60%;
+  padding: 0 50px 0 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li a:hover {
+  color: #fef595;
+}
+
+.nav-image-container {
+  flex-basis: 40%
+}
+
+img.page-logo {
+  float: left;
+  height: 60px;
+  width: auto;
+  padding-top: 10px 0 20px 0;
+}
+
+img.insta-logo {
+  height: 20px;
+  width: auto;
+}
+
+.page {
+  margin: auto;
+  width: 90%;
+}

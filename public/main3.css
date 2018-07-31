@@ -1,0 +1,166 @@
+body {
+  background-color: #010e23;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: "helvetica",sans-serif;
+}
+
+.nav-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #010e23;
+  color: #ffffff;
+}
+
+.nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li a:hover {
+  color: #fef595;
+}
+
+img.page-logo {
+  float: left;
+  height: 60px;
+  width: auto;
+}
+
+img.insta-logo {
+  height: 12px;
+  width: auto;
+}
+
+.page {
+   background-color: #F1F3F4;
+   padding: 30px;
+   margin: 0 150px 0 150px;
+}
+
+div.header {
+  padding: 50px;
+  background-color: #010e23;
+  background-image: url("./more images/zlatan_sweden_colors.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(55);
+  border-bottom: medium groove #010e23;
+  margin-top: 60px;
+}
+
+.header img {
+  float: right;
+  height:75px;
+  width: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 75px;
+  margin: 0;
+  padding: 20px 20px 0 0;
+}
+
+h2 {
+  font-family: monospace;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.inter img {
+  padding-bottom: 10px;
+  height: 200px;
+}
+
+iframe {
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.la_times a {
+  text-decoration: none;
+  color: black;
+}
+
+.la_times a:hover {
+  color: #fef595;
+}
+
+footer {
+  text-align: right;
+  padding: 0 10px 0 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover{
+  color: #fef595;
+}
+
+.gallery {
+  background: #eee;
+  width: 500px;
+  margin: 1em auto;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+.gallery .hero {
+  box-sizing: border-box;
+  padding: 1em;
+}
+.gallery .thumbs {
+  background: #ddd;
+  padding: 1em;
+  text-align: center;
+}
+.gallery .thumbs img {
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+.gallery .active {
+  opacity: 0.5;
+}
+
+.memorable {
+  text-align: center;
+}
