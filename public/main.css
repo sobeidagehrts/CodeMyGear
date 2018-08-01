@@ -5,7 +5,7 @@ html{
 }
 
 body {
-  background-image: url("/public/zlatan_club _images/Zlatan.jpg");
+  background-image: url("./zlatan_club _images/Zlatan.jpg");
   background-repeat: no-repeat;
   background-size: cover; /* FEEDBACK: nice use of background size */
   background-position: center;
