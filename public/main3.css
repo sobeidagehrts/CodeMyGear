@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #010e23;
   margin-bottom: 20px;
@@ -50,20 +54,27 @@ img.insta-logo {
 
 .page {
    background-color: #F1F3F4;
-   padding: 30px;
-   margin: 0 150px 0 150px;
+   padding: 20px;
+   margin: 0 20px 0 20px;
 }
 
 div.header {
-  padding: 50px;
-  background-color: #010e23;
+  /* padding: 100px; */
+  /* background-color: #010e23;
   background-image: url("./more images/zlatan_sweden_colors.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  filter: opacity(55);
+  filter: opacity(55); */
   border-bottom: medium groove #010e23;
-  margin-top: 60px;
+  /* margin-top: 60px; */
+}
+
+.zlatan-sweden {
+  width: 100%;
+  /* float: right; */
+  text-align: center;
+  height: auto;
 }
 
 .header img {
@@ -141,7 +152,7 @@ footer a:hover{
   margin: 1em auto;
 }
 .gallery img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 .gallery .hero {
@@ -154,7 +165,7 @@ footer a:hover{
   text-align: center;
 }
 .gallery .thumbs img {
-  width: 100px;
+  max-width: 100px;
   height: 70px;
   cursor: pointer;
   margin: 1.5rem;
@@ -166,3 +177,17 @@ footer a:hover{
 .memorable {
   text-align: center;
 }
+
+@media only screen and (max-width: 850px) {
+  .nav-container {
+    position: relative;
+  }
+
+  .nav-bar li {
+    display: block;
+    float: none;
+    padding 0;
+  }
+  .page-logo {
+    display: none;
+  }

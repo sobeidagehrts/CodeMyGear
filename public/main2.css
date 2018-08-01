@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #010e23;
   margin-bottom: 20px;
@@ -55,20 +59,22 @@ img.insta-logo {
 }
 
 div.header {
-  padding: 200px;
-  background-color: #151515;
-  background-image: url("more images/hollywood_ibra.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  filter: opacity(55);
+  padding: 100px;
+  /* background-color: #151515;
+  /* background-image: url("more images/hollywood_ibra.jpg"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* filter: opacity(55); */
   border-bottom: medium groove #010e23;
 }
 
-.header img {
-  float: right;
-  height: 100px;
-  width: auto;
+.header-img {
+  width: 100%;
+  /* float: right; */
+  text-align: center;
+  height: auto;
+  /* max-width: 500%; */
   /* padding-top: 20px;
   padding-left: 20px; */
 }
@@ -107,6 +113,7 @@ h2 {
 
 .kid{
   flex-grow: 0;
+  text-align: center;
 }
 
 .kid:hover {
@@ -114,10 +121,26 @@ h2 {
 }
 
 .kid img {
+ max-width: 100%;
  max-height: 80px;
  margin-left: 20px;
  margin-right: 20px;
 }
+
+/* .crest_container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.kid{
+  width: 33.333%;
+  padding-top: 10px;
+} */
+
 
 .maincontainer {
   display: flex;
@@ -255,6 +278,40 @@ p {
   color: #fef595;
 }
 
-@media {
-  body {
-    width: auto; }
+@media only screen and (max-width: 850px) {
+  .nav-container {
+    position: relative;
+  }
+  .nav-bar li {
+    display: block;
+    float: none;
+    padding 0;
+  }
+  .page-logo {
+    display: none;
+  }
+
+  .crest_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px
+  }
+
+  .kid{
+    width: 33.333%;
+    padding-top: 10px;
+  }
+
+  .kid:hover {
+    transform: scale(1.5);
+  }
+
+  .kid img {
+   max-height: 80px;
+   margin-left: 20px;
+   margin-right: 20px;
+  }
+}

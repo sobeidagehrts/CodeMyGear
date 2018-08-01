@@ -107,3 +107,13 @@ h1,h2{
   background-position: center;
   border-bottom: medium groove #010e23;
 }
+
+@media only screen and (max-width: 850px) {
+  .nav-bar li {
+    display: block;
+    float: none;
+    padding 0;
+  }
+  .page-logo {
+    display: none;
+  }
