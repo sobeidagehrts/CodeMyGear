@@ -9,11 +9,11 @@
 
 <body>
   <div class="header">
-    <h1>Zlatan Said What?</h1>
+
   </div>
   <div class="nav-container">
         <div class="nav-image-container">
-          <a href="./index.html"><img src="zlatan_sweden-emoji.png" alt="Zlatan logo" class="page-logo" /></a>
+          <a href="./index.html"><img src="./more_images/zlatan_sweden-emoji.png" alt="Zlatan logo" class="page-logo" /></a>
         </div>
         <div class="nav-bar">
           <ul>
@@ -21,13 +21,15 @@
             <li><a href="page3.html">Zlatan's Quotes</a></li>
             <li><a href="page2.html">Zlatan's Career</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87" target="_blank">Zlatan's Wiki</a></li>
-            <li><a href="https://www.instagram.com/iamzlatanibrahimovic/?hl=en" target="_blank">Zlatan's <img src="Instagram-Logo.png" alt="Instagram logo" class="insta-logo" /></a></li>
+            <li><a href="https://www.instagram.com/iamzlatanibrahimovic/?hl=en" target="_blank">Zlatan's <img src="./more_images/Instagram-Logo.png" alt="Instagram logo" class="insta-logo" /></a></li>
           </ul>
         </div>
       </div>
+  <img src="./more images/zlatan_sweden_colors.jpg" alt="Zlatan Sweden" class="zlatan-sweden">
+  <!-- <h1>Zlatan Said What?</h1> -->
     <div class="page">
         <h2>Some of Zlatan's most memorable quotes</h2>
-      <iframe width="320" height="180" src="https://www.youtube.com/embed/AvMgRNndnoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>Best Zlatan interview moments.</iframe>
+      <!-- <iframe width="320" height="180" src="https://www.youtube.com/embed/AvMgRNndnoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>Best Zlatan interview moments.</iframe> -->
         <ul>
         <li><h3>"You Bought A Ferrari But You Drive It Like A Fiat"</h3><p>On his single season at Barcelona where he endured a tense relationship with then-coach Pep Guardiola.</p></li>
 
@@ -43,10 +45,10 @@
 
         <li><h3>"It’s been nice. You won’t win anything without me"</h3><p>Zlatan’s Inter Milan exit line.</p><li>
 
-         <div class="inter">
-         <img src="me_at_san_siro.jpg" alt= "Me at the San Siro 2008" />
-         <img src="inter_udinese.jpg" alt= "Inter vs Udinese - Nov. 2008" />
-       </div>
+         <!-- <div class="inter">
+         <img src="./more_images/me_at_san_siro.jpg" alt= "Me at the San Siro 2008" />
+         <img src="./more_images/inter_udinese.jpg" alt= "Inter vs Udinese - Nov. 2008" />
+       </div> -->
 
         <li><h3>“I don't think that you can score as spectacular a goal as those of Zlatan in a video game - even though these games are very realistic these days."</h3><p>On FIFA 16 and others are no match for Ibrahimovic.</p></li>
 
@@ -67,9 +69,7 @@
 
 </body>
 
-<script>
-// the images variable is an array of images to be in your gallery.
-// add 4 images to this array to be displayed
+<!-- <script>
 var images = [
   'memes/zlatan_meme_galaxy.jpg',
   'memes/zlatan_meme_gmail.jpg',
@@ -77,56 +77,28 @@ var images = [
   'memes/zlatan_meme_psg.jpg'
 ];
 
-// galleryBox is the div with a class of gallery
-// find the div and set the variable to the DOM Element
 var galleryBox = document.querySelector('.gallery');
 
-// heroImage is setting up a template to be placed as your hero image
-// we're using the images array and grabbing the first image (ie. 0th place)
 var heroImage = `<img src="${images[0]}" />`;
 
-// thumbs is a blank variable right now
-// you need to:
-  // loop through your images
-  // make a template of an image tag
-  // set the src of the img tag to the current image you're looping over
-  // add that image to the thumbs variable (thumbs += template)
 var thumbs = "";
 images.forEach(function(image){
   thumbs += `<img src="${image}" />`;
 })
 
-// find the hero div using querySelector()
-// set the innerHTML to your heroImage template
 var divHero = galleryBox.querySelector('.hero');
 divHero.innerHTML = heroImage;
 
-// find the thumbs div using querySelector()
-// set the innerHTML to your thumbs template
 var divThumbs = galleryBox.querySelector('.thumbs');
 divThumbs.innerHTML = thumbs;
 
-// add an event listener on the galleryBox div
-// use a 'click' listener
-// in the function that handles the click:
-  // create a variable for a new image template
-  // set the src of the image to the src of the thumbnail you clicked on
-  // (hint use event variable)
-  // find the hero div with querySelector()
-  // set the innerHTML of that div to be equal to your new hero template
 galleryBox.addEventListener('click', function(e) {
-// console.log(e.target.src);
+
 if(e.target.src){
   var newImage = `<img src="${e.target.src}" />`;
   divHero.innerHTML = newImage;
 }
 });
-
-// THAT'S IT! go to your page and test it out!
-// Build on this and implement it to your own site.
-</script>
-
-
-
+</script> -->
 
 </html>
