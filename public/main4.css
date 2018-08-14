@@ -4,7 +4,7 @@
 
 body {
   background-color: #010e23;
-  margin: 0px 0px 20px 0px;
+  margin-bottom: 20px;
   padding: 0px;
   font-family: "helvetica",sans-serif;
 }
@@ -52,10 +52,50 @@ img.insta-logo {
   width: auto;
 }
 
-.page {
+.page-1 {
+   /* padding: 20px;
+   margin: 0 20px 0 20px; */
    background-color: #F1F3F4;
    padding: 10px;
-   margin: 0 10px 0 10px;
+   margin: 50px 150px 0 150px;
+}
+
+div.header {
+  /* padding: 100px; */
+  /* background-color: #010e23;
+  background-image: url("./more images/zlatan_sweden_colors.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(55); */
+  border-bottom: medium groove #010e23;
+  /* margin-top: 60px; */
+}
+
+.zlatan-sweden {
+  width: 100%;
+  /* float: right; */
+  text-align: center;
+  height: auto;
+}
+
+.header img {
+  float: right;
+  height:75px;
+  width: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 75px;
+  margin: 0;
+  padding: 20px 20px 0 0;
 }
 
 header {
@@ -71,14 +111,13 @@ header {
   text-align: center;
 }
 
-.zlatan-quote {
-  max-width: 100%;
-}
-
 h2 {
+  padding-top: 20px;
+  margin: 20px 0 20px 0;
+  color: black;
   font-family: helvetica;
   font-weight: bolder;
-  font-size: 40px;
+  font-size: 55px;
 }
 
 ul {
@@ -89,33 +128,14 @@ p {
   font-size: 15px;
   font-weight: lighter;
   font-style: italic;
+  text-align: center;
 }
 
-.san-siro {
-max-width: 15%;
-height: auto;
-padding-top: 5px;
-padding-right: 20px;
+.inter img {
+  padding-bottom: 10px;
+  height: 200px;
 }
 
-.udinese {
-max-width: 15%;
-padding-top: 5px;
-height: auto;
-}
-
-.la_times a {
-  text-decoration: none;
-  color: black;
-}
-
-.la_times a:hover {
-  color: #ffd700;
-}
-
-.la_times:hover {
-  transform: scale(1.07);
-}
 
 footer {
   text-align: right;
@@ -124,7 +144,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: #fff;
 }
 
 footer a:hover{
@@ -132,8 +152,9 @@ footer a:hover{
 }
 
 .gallery {
-  /* background: #eee; */
-  width: 700px;
+  /* background: #777; */
+  filter: drop-shadow(0 0 0.1rem #f0f0f0);
+  width: 800px;
   margin: 1em auto;
 }
 .gallery img {
@@ -142,19 +163,28 @@ footer a:hover{
 }
 .gallery .hero {
   box-sizing: border-box;
-  padding: 1.5em;
+  padding: 1em;
 }
+
 .gallery .thumbs {
-  /* background: #ddd; */
-  padding: 1.5em;
+  /* background-color: #777; */
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1em;
   text-align: center;
 }
+
+.thumbs::-webkit-scrollbar {
+  display: none;
+}
+
 .gallery .thumbs img {
   max-width: 100px;
   height: 70px;
   cursor: pointer;
-  margin: 1.5rem;
+  margin: 0.5rem;
 }
+
 .gallery .active {
   opacity: 0.5;
 }
@@ -175,4 +205,32 @@ footer a:hover{
   }
   .page-logo {
     display: none;
+  }
+
+  .gallery {
+    /* background: #777; */
+    filter: drop-shadow(0 0 0.1rem #f0f0f0);
+    max-width: 100%;
+    margin: 1em auto;
+  }
+
+  .gallery img {
+    max-width: 100%;
+    height: 70px;
+  }
+
+  .gallery .thumbs img {
+    max-width: 100%;
+    max-height: 30px;
+    cursor: pointer;
+    margin: 0.5rem;
+  }
+
+  h2 {
+    padding-top: 20px;
+    margin: 20px 0 20px 0;
+    color: black;
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 20px;
   }

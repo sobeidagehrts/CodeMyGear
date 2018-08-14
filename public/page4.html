@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>What Does Zlatan Say?</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main4.css">
+</head>
+
+<body>
+  <!-- <header>
+    <img class="hollywood" src="./more_images/hollywood_ibra.jpg" alt="Hollywood Ibra">
+  </header> -->
+  <div class="nav-container">
+        <div class="nav-image-container">
+          <a href="./index.html"><img src="./more_images/zlatan_sweden-emoji.png" alt="Zlatan logo" class="page-logo" /></a>
+        </div>
+        <div class="nav-bar">
+          <ul>
+            <li><a href="https://www.instagram.com/iamzlatanibrahimovic/?hl=en" target="_blank">Zlatan's <img src="./more_images/Instagram-Logo.png" alt="Instagram logo" class="insta-logo" /></a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87" target="_blank">Zlatan's Wiki</a></li>
+            <li><a href="page4.html">Best Ibra Memes</a><li>
+            <li><a href="comments.html">Leave A Comment!</a></li>
+            <li><a href="page3.html">Zlatan's Quotes</a></li>
+            <li><a href="page5.html">Best Goal Ever</a><li>
+            <li><a href="page2.html">Zlatan's Career</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="page-1">
+      <h2 class="memorable">Memorable Zlatan Meme Gold</h2>
+            <div class="gallery">
+              <div class="hero"></div>
+              <div class="thumbs"></div>
+            </div>
+
+  <footer class="footer"><a href="./index.html">Return to Home Page</a></footer>
+</div>
+</body>
+      <script>
+      var images = [
+        'memes/zlatan_meme_galaxy.jpg',
+        'memes/zlatan_meme_gmail.jpg',
+        'memes/zlatan_meme_perfect.jpg',
+        'memes/zlatan_meme_psg.jpg',
+        'memes/ac_milan_meme.jpg',
+        'memes/sweden_holiday_meme.jpeg',
+        'memes/zlatan_meme_galaxy.jpg',
+        'memes/zlatan_meme_gmail.jpg',
+        'memes/zlatan_meme_perfect.jpg',
+        'memes/zlatan_meme_psg.jpg',
+        'memes/ac_milan_meme.jpg',
+        'memes/sweden_holiday_meme.jpeg'
+      ];
+
+      var galleryBox = document.querySelector('.gallery');
+
+      var heroImage = `<img src="${images[0]}" />`;
+
+      var thumbs = "";
+      images.forEach(function(image){
+        thumbs += `<img src="${image}" />`;
+      })
+
+      var divHero = galleryBox.querySelector('.hero');
+      divHero.innerHTML = heroImage;
+
+      var divThumbs = galleryBox.querySelector('.thumbs');
+      divThumbs.innerHTML = thumbs;
+
+      galleryBox.addEventListener('click', function(e) {
+
+      if(e.target.src){
+        var newImage = `<img src="${e.target.src}" />`;
+        divHero.innerHTML = newImage;
+      }
+      });
+      </script>
+
+</html>

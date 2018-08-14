@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010e23;
+  margin-bottom: 20px;
+  padding: 0px;
+  font-family: "helvetica",sans-serif;
+}
+
+.nav-container {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: #010e23;
+  color: #ffffff;
+}
+
+.nav-bar {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-bar li {
+  display: inline-block;
+  float: right;
+  padding: 0 50px 0 0;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-bar li a:hover {
+  background-color: #ffd700;
+  padding: 25px;
+  color: #010e23;
+}
+
+img.page-logo {
+  float: left;
+  height: 60px;
+  width: auto;
+}
+
+img.insta-logo {
+  height: 12px;
+  width: auto;
+}
+
+.page-1 {
+   padding: 20px;
+   margin: 0 20px 0 20px;
+}
+
+div.header {
+  /* padding: 100px; */
+  /* background-color: #010e23;
+  background-image: url("./more images/zlatan_sweden_colors.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: opacity(55); */
+  border-bottom: medium groove #010e23;
+  /* margin-top: 60px; */
+}
+
+.zlatan-sweden {
+  width: 100%;
+  float: right;
+  text-align: center;
+  height: 200px;
+}
+
+.header img {
+  float: right;
+  height:75px;
+  width: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header h1 {
+  color: #ffffff;
+  text-align: left;
+  text-shadow: 1px 1px black;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 75px;
+  margin: 0;
+  padding: 20px 20px 0 0;
+}
+
+h2 {
+  /* padding-top: 40px; */
+  color: #fff;
+  font-family: monospace;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.inter img {
+  padding-bottom: 10px;
+  height: 200px;
+}
+
+footer {
+  text-align: right;
+  padding: 0 10px 0 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover{
+  color: #ffd700;
+}
+
+iframe {
+    position: relative;
+    /* padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    /* height: 0; */
+  display: block;
+  max-width: 100%;
+    /* height: auto; */
+  margin: 0 auto;
+  border: 0;
+}
+
+/* .videoWrapper iframe {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+}
+
+.memorable {
+  text-align: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-container {
+    position: relative;
+  }
+
+  .nav-bar li {
+    display: block;
+    float: none;
+    padding 0;
+  }
+
+.page-logo {
+    display: none;
+  }
+
+  .zlatan-sweden {
+    max-width: 100%;
+    float: right;
+    text-align: center;
+    height: 50px;
+  }
+}

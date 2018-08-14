@@ -32,7 +32,7 @@ body {
 }
 
 .nav-bar li a:hover {
-  background-color: #fff5b7;
+  background-color: #ffd700;
   padding: 25px;
   color: #010e23;
 }
@@ -101,11 +101,25 @@ h1,h2{
 #title {
   padding: 200px;
   max-width: 100%;
-  background-image: url("./more images/js-bethard-article-banner.png");
+  background-image: url("./more_images/js-bethard-article-banner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-bottom: medium groove #010e23;
+}
+
+footer {
+  text-align: right;
+  padding: 10px 10px 0 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover{
+  color: #fef595;
 }
 
 @media only screen and (max-width: 850px) {
