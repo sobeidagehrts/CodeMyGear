@@ -95,7 +95,7 @@ h1,h2{
 
 #submit:hover {
   color: #010e23;
-  background-color: #fff5b7;
+  background-color: #ffd700;
 }
 
 #title {
@@ -109,8 +109,11 @@ h1,h2{
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
   text-align: right;
-  padding: 10px 10px 0 10px;
+  padding: 10px;
 }
 
 footer a {
@@ -123,6 +126,13 @@ footer a:hover{
 }
 
 @media only screen and (max-width: 850px) {
+
+  .page {
+     background-color: #F1F3F4;
+     padding: 10px;
+     margin: 10px 10px 0 10px;
+  }
+
   .nav-bar li {
     display: block;
     float: none;
@@ -131,3 +141,50 @@ footer a:hover{
   .page-logo {
     display: none;
   }
+
+  #title {
+    margin-top: 150px;
+    padding: 200px;
+    max-height: 200px;
+    max-width: 100%;
+    background-image: url("./more_images/js-bethard-article-banner-small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: medium groove #010e23;
+  }
+
+  #header {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+
+  #title {
+    margin-top: 150px;
+    padding: 80px;
+    max-height: 200px;
+    max-width: 100%;
+    background-image: url("./more_images/js-bethard-article-banner-small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: medium groove #010e23;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+
+  #title {
+    margin-top: 150px;
+    padding: 80px;
+    max-height: 200px;
+    max-width: 100%;
+    background-image: url("./more_images/js-bethard-article-banner-small.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: medium groove #010e23;
+  }
+}
