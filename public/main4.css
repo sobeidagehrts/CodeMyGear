@@ -138,7 +138,7 @@ p {
 
 
 footer {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   right: 0px;
   text-align: right;
